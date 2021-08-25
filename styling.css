@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 * {
   margin: 0;
@@ -8,16 +9,16 @@
 .main {
   display: flex;
   flex-direction: column;
-  background: #000;
+  background: linear-gradient(black, rgb(27, 49, 82), rgb(28, 28, 51));
 }
 
 .greetings {
   text-align: center center;
-  font-family: "Orbitron";
-  font-size: 7em;
-  font-weight: bolder;
-  color: rgb(28, 28, 50);
-  -webkit-text-stroke-color: white;
+  font-family: "Audiowide";
+  font-size: 8em;
+  font-weight: bolder 800;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: rgb(0, 195, 255);
   -webkit-text-stroke-width: 2px;
 }
 
@@ -31,7 +32,7 @@
   display: flex;
   flex-direction: row;
   background-image: url("images/banner.jpg");
-  background-size: 110% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   justify-content: center;
 }
@@ -46,7 +47,7 @@
 }
 
 .nav_bar {
-  padding-top: .5em;
+  padding-top: 0.5em;
   padding-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -55,11 +56,11 @@
   text-align: center;
   position: fixed;
   z-index: 12;
-  background: radial-gradient( rgb(28, 28, 70), black);
+  background: radial-gradient(rgb(28, 28, 70), black);
   border-bottom: gold;
   border-style: solid;
   border-width: 1px;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
 }
 
 .name {
@@ -84,7 +85,7 @@
   line-height: 1em;
   font-family: "Orbitron";
   border-style: groove;
-  padding: .5em
+  padding: 0.5em;
 }
 
 a {
@@ -96,13 +97,15 @@ a {
   margin-right: auto;
   width: 90%;
   font-family: "Orbitron";
+  font-weight: bolder;
+  letter-spacing: 0.2em;
   color: white;
   padding-top: 2em;
   text-align: center;
 }
 
 .about_body {
-  letter-spacing: .1em;
+  letter-spacing: 0.15em;
   padding-top: 2em;
   line-height: 2em;
   font-weight: bolder;
@@ -115,4 +118,24 @@ a {
   font-family: "Orbitron";
   color: white;
   text-align: center;
+}
+
+.worksimages {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.work1 {
+  height: 300;
+  width: 400;
+}
+
+.work2 {
+  height: 300;
+}
+
+.work3 {
+  height: 300;
 }
