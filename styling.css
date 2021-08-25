@@ -23,9 +23,8 @@
 }
 
 .banner {
-  padding: 10em;
-  margin-top: 10em;
-  border-radius: 50%;
+  padding: 12em;
+  margin-top: 7em;
   border-bottom-style: solid;
   border-top-style: solid;
   border-color: gold;
@@ -95,13 +94,18 @@ a {
 .about {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
   font-family: "Orbitron";
   font-weight: bolder;
   letter-spacing: 0.2em;
   color: white;
   padding-top: 2em;
   text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
 }
 
 .about_body {
