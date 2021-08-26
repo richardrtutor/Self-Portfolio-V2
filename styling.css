@@ -177,3 +177,11 @@ a {
   height: 17.5em;
   width: 26em;
 }
+
+.work_image {
+  filter: grayscale(100);
+}
+
+.work_image:hover {
+  filter: grayscale(0);
+}
