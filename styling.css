@@ -23,8 +23,10 @@
 }
 
 .banner {
-  padding: 12em;
+  width: 100%;
   margin-top: 7em;
+  padding-top: 9em;
+  padding-bottom: 9em;
   border-bottom-style: solid;
   border-top-style: solid;
   border-color: gold;
@@ -94,18 +96,30 @@ a {
 .about {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 80em;
+  padding: 2em;
   font-family: "Orbitron";
   font-weight: bolder;
   letter-spacing: 0.2em;
   color: white;
-  padding-top: 2em;
-  text-align: center;
+  margin-top: 2em;
+  text-align: left;
+  border-style: solid;
+  border-color: white;
+}
+
+.about_desc {
+  padding-left: 3em;
 }
 
 .profile {
   display: flex;
   flex-direction: row;
+}
+
+.profile_pic {
+  height: 17.5em;
+  width: 17.5em;
 }
 
 .about_body {
@@ -116,12 +130,10 @@ a {
 }
 
 .info_header {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
   font-family: "Orbitron";
   color: white;
   text-align: left;
+  margin-left: 1.2em;
 }
 
 .worksimages {
@@ -132,8 +144,8 @@ a {
   justify-content: space-evenly;
   border-style: solid;
   border-color: white;
-  margin-left: 4.5em;
-  width: 77em;
+  width: 80em;
+  margin: 2em auto;
 }
 
 .work1 {
