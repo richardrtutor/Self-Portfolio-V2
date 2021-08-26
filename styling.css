@@ -80,7 +80,7 @@
   justify-content: space-evenly;
 }
 
-.link {
+.nav_link {
   color: white;
   font-size: 1em;
   line-height: 1em;
@@ -89,11 +89,20 @@
   padding: 0.5em;
 }
 
+.nav_link:hover {
+  background-color: rgb(255, 230, 2);
+  color: black;
+  font-weight: bolder;
+}
+
 a {
   text-decoration: none;
 }
 
 .about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 80em;
@@ -108,13 +117,19 @@ a {
   border-color: white;
 }
 
+.about_header {
+  margin-top: -0.2em;
+}
+
 .about_desc {
   padding-left: 3em;
 }
 
 .profile {
+  padding-top: 1em;
   display: flex;
   flex-direction: row;
+  padding-left: 1em;
 }
 
 .profile_pic {
@@ -133,7 +148,7 @@ a {
   font-family: "Orbitron";
   color: white;
   text-align: left;
-  margin-left: 1.2em;
+  margin-left: 1.4em;
 }
 
 .worksimages {
@@ -150,15 +165,15 @@ a {
 
 .work1 {
   height: 17.5em;
-  width: 17.5em;
+  width: 26em;
 }
 
 .work2 {
   height: 17.5em;
-  width: 17.5em;
+  width: 26em;
 }
 
 .work3 {
   height: 17.5em;
-  width: 17.5em;
+  width: 26em;
 }
