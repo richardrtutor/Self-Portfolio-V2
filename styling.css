@@ -148,7 +148,7 @@ a {
   font-family: "Orbitron";
   color: white;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 3%;
 }
 
 .worksimages {
@@ -163,25 +163,16 @@ a {
   margin: 2em auto;
 }
 
-.work1 {
-  height: 17.5em;
-  width: 26em;
-}
-
-.work2 {
-  height: 17.5em;
-  width: 26em;
-}
-
-.work3 {
-  height: 17.5em;
-  width: 26em;
-}
-
 .work_image {
+  height: 17.5em;
+  width: 33%;
   filter: grayscale(100);
 }
 
 .work_image:hover {
   filter: grayscale(0);
+}
+
+.work1_hover:hover {
+  background-image: url("images/Personal.Library.png");
 }
