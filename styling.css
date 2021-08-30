@@ -153,10 +153,10 @@ a {
 
 .worksimages {
   margin-top: 2em;
-  padding: 2em;
+  padding: 1em 1em;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-style: solid;
   border-color: white;
   width: 80em;
@@ -164,64 +164,12 @@ a {
 }
 
 .work_image {
+  padding: 1em 1em;
   height: 17.5em;
-  width: 33%;
+  width: 30%;
   filter: grayscale(100);
 }
 
 .work_image:hover {
   filter: grayscale(0);
-}
-
-.work1_hover:hover {
-  background-image: url("images/Personal.Library.png");
-}
-
-.pop_test {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.pop_test .pop_text {
-  visibility: hidden;
-  width: 50%;
-  background-color: white;
-  color: black;
-  text-align: left;
-  border-radius: 2%;
-  padding: 2em;
-  position: absolute;
-  z-index: 12;
-  margin-left: 33%;
-}
-
-.pop_test .pop_text::after {
-  content: "";
-  position: absolute;
-  border-style: groove;
-}
-
-.pop_test .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
