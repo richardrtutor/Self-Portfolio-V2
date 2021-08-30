@@ -193,12 +193,12 @@ a {
 }
 
 .py {
-  height: 10em !important;
+  height: 100% !important;
   width: 16% !important;
 }
 
 .logo {
-  height: 11em;
+  height: 100%;
   width: 18%;
 }
 
