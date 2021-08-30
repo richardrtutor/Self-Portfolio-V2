@@ -176,3 +176,52 @@ a {
 .work1_hover:hover {
   background-image: url("images/Personal.Library.png");
 }
+
+.pop_test {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pop_test .pop_text {
+  visibility: hidden;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 2%;
+  padding: 2em;
+  position: absolute;
+  z-index: 12;
+  margin-left: 33%;
+}
+
+.pop_test .pop_text::after {
+  content: "";
+  position: absolute;
+  border-style: groove;
+}
+
+.pop_test .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
