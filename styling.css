@@ -237,3 +237,45 @@ a {
 .phone {
   height: 10em;
 }
+
+.info_sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  padding: 1em 1em;
+  margin: 2em auto;
+  border-style: solid;
+  border-color: white;
+}
+.test-case {
+  height: 5em;
+}
+
+.display_con {
+  display: flex;
+  flex: row;
+  color: white;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.info_text {
+  font-family: "Audiowide";
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.con_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  border-top-style: solid;
+  text-align: center;
+  font-family: "audiowide";
+  color: white;
+  padding-top: 1em;
+}
