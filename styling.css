@@ -255,7 +255,7 @@ a {
 
 .display_con {
   display: flex;
-  flex: row;
+  flex-direction: row;
   color: white;
   justify-content: center;
   margin-left: 10%;
@@ -265,7 +265,7 @@ a {
 .info_text {
   font-family: "Audiowide";
   font-size: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .con_container {
