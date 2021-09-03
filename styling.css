@@ -13,9 +13,12 @@
 }
 
 .greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   font-family: "Audiowide";
-  font-size: 8em;
+  font-size: 4em;
   font-weight: bolder 800;
   color: rgb(0, 0, 0);
   -webkit-text-stroke-color: rgb(0, 195, 255);
@@ -25,8 +28,8 @@
 .banner {
   width: 100%;
   margin-top: 7em;
-  padding-top: 9em;
-  padding-bottom: 9em;
+  padding-top: 6em;
+  padding-bottom: 6em;
   border-bottom-style: solid;
   border-top-style: solid;
   border-color: gold;
