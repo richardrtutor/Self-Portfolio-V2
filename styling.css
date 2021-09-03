@@ -192,14 +192,8 @@ a {
   border-color: white;
 }
 
-.py {
-  height: 100% !important;
-  width: 16% !important;
-}
-
 .logo {
-  height: 100%;
-  width: 18%;
+  width: 10%;
 }
 
 .social_sec {
@@ -250,7 +244,8 @@ a {
   border-color: white;
 }
 .test-case {
-  height: 5em;
+  height: 5em !important;
+  padding-bottom: 1em;
 }
 
 .display_con {
@@ -258,7 +253,7 @@ a {
   flex-direction: row;
   color: white;
   justify-content: center;
-  margin-left: 10%;
+  margin-right: 8%;
   letter-spacing: 0.2em;
 }
 
@@ -280,12 +275,4 @@ a {
   font-family: "audiowide";
   color: white;
   padding-top: 1em;
-}
-
-.javascript {
-  height: 13em;
-}
-
-.java {
-  height: 13em;
 }
