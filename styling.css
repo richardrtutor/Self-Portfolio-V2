@@ -237,7 +237,7 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 90%;
+  width: 88%;
   padding: 2em 2em;
   margin: 2em auto;
   border-style: solid;
@@ -275,4 +275,44 @@ a {
   font-family: "audiowide";
   color: white;
   padding-top: 1em;
+}
+
+.projects_sec {
+  margin-top: 2em;
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: white;
+  width: 88%;
+  justify-content: space-evenly;
+  margin: auto auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.proj_img {
+  height: 13em;
+  width: 13em;
+}
+
+.proj_card {
+  margin-left: 1em;
+  font-family: "Audiowide";
+  color: white;
+}
+
+.proj_title {
+  font-size: 1.5em;
+  padding-bottom: 0.2em;
+}
+
+.proj_info {
+  line-height: 1.5em;
+  letter-spacing: 0.05;
 }
