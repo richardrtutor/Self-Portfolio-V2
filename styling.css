@@ -115,7 +115,6 @@ a {
   font-weight: bolder;
   letter-spacing: 0.2em;
   color: white;
-  margin-top: 2em;
   text-align: left;
   border-style: solid;
   border-color: white;
@@ -278,7 +277,6 @@ a {
 }
 
 .projects_sec {
-  margin-top: 2em;
   padding: 2em 2em;
   display: flex;
   flex-direction: row;
@@ -287,7 +285,7 @@ a {
   border-color: white;
   width: 88%;
   justify-content: space-evenly;
-  margin: auto auto;
+  margin: 2em auto;
 }
 
 .project {
