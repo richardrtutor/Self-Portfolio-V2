@@ -264,8 +264,6 @@ a {
   display: flex;
   flex-direction: row;
   max-width: 30%;
-  border-style: solid;
-  border-color: white;
 }
 
 @media screen and (max-width: 1250px) {
@@ -274,25 +272,40 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 30%;
+  }
+
+  .proj_card {
+    display: flex;
+    flex-direction: row;
     border-style: solid;
     border-color: white;
+    padding: 0.2em;
   }
 
   .proj_img {
-    max-height: 8em;
-    max-width: 7em;
+    max-height: 9.5em;
+    max-width: 9.5em;
+    display: flex;
+    flex-direction: column;
+    overflow: contain;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: white;
   }
 }
 
 .proj_img {
   height: 10em;
-  max-width: 10em;
+  width: 10em;
 }
 
 .proj_card {
-  margin-left: 1em;
+  padding-left: 1em;
   font-family: "Audiowide";
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .proj_title {
