@@ -264,6 +264,7 @@ a {
   display: flex;
   flex-direction: row;
   max-width: 30%;
+  padding: 1em;
 }
 
 @media screen and (max-width: 1250px) {
