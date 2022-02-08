@@ -192,7 +192,7 @@ a {
 }
 
 .logo {
-  width: 10%;
+  max-width: 15%;
 }
 
 .gmail {
@@ -298,6 +298,10 @@ a {
 .proj_img {
   height: 10em;
   width: 10em;
+}
+
+.sql {
+  border-radius: 50%;
 }
 
 .proj_card {
