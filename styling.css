@@ -9,7 +9,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(black, rgb(27, 49, 82), rgb(28, 28, 51));
+  background: linear-gradient(black, rgb(0, 51, 148), rgb(28, 28, 51));
 }
 
 .greetings {
@@ -35,7 +35,7 @@
   border-color: gold;
   display: flex;
   flex-direction: row;
-  background-image: url("images/banner.jpg");
+  background-image: url("images/pbg.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   justify-content: center;
@@ -60,7 +60,7 @@
   text-align: center;
   position: fixed;
   z-index: 12;
-  background: radial-gradient(rgb(28, 28, 70), black);
+  background: radial-gradient(rgb(0, 51, 148), black);
   border-bottom: gold;
   border-style: solid;
   border-width: 1px;
@@ -263,7 +263,7 @@ a {
 .project {
   display: flex;
   flex-direction: row;
-  max-width: 30%;
+  max-width: 40%;
   padding: 1em;
 }
 
@@ -296,8 +296,8 @@ a {
 }
 
 .proj_img {
-  height: 10em;
-  width: 10em;
+  min-height: 14em;
+  max-width: 14em;
 }
 
 .sql {
@@ -321,6 +321,18 @@ a {
 .proj_info {
   line-height: 1.5em;
   letter-spacing: 0.05;
+}
+
+.usedLangs {
+  margin-top: 2%;
+  padding-top: 2%;
+  border-top-style: solid;
+}
+
+.projlang {
+  width: 40px;
+  padding-top: 2%;
+  padding-right: 4%;
 }
 
 .socials_section {
@@ -359,3 +371,5 @@ a {
 .emailme:hover {
   color: goldenrod;
 }
+
+
