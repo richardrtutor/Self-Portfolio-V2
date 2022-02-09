@@ -297,6 +297,71 @@ a {
   .proj_link .proj_img {
     min-width: 100%;
   }
+
+  .logo_sec .logo {
+    max-width: 20%;
+    padding: 2%;
+  }
+
+  .info_sec {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .con_container {
+    padding-bottom: 5%;
+    width: 90%;
+    font-size: 1.5em;
+  }
+
+  .display_con .phone {
+    max-width: 40%;
+  }
+
+  .about {
+    height: fit-content;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile .profile_pic {
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+  }
+
+  .profile .about_desc {
+    margin-right: 3em;
+    font-size: 1.5em;
+    padding-top: 2em;
+    text-align: center;
+  }
+
+  .banner {
+    height: 90%;
+  }
+
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .nav_bar_links {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nav_link {
+    font-size: 2em;
+    min-width: 30%;
+    border-width: 0.25em;
+    margin: 0.2em;
+  }
 }
 
 .proj_img {
