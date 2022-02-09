@@ -249,7 +249,7 @@ a {
 }
 
 .projects_sec {
-  padding: 2em 2em;
+  padding: 2%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -257,41 +257,45 @@ a {
   border-color: white;
   width: 88%;
   justify-content: space-evenly;
-  margin: 2em auto;
+  margin-left: 2em;
 }
 
 .project {
   display: flex;
   flex-direction: row;
   max-width: 40%;
-  padding: 1em;
+  padding: 2%;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1000px) {
   .project {
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 30%;
+    max-width: 95%;
+    height: fit-content;
   }
 
   .proj_card {
-    display: flex;
-    flex-direction: row;
     border-style: solid;
     border-color: white;
+    font-size: 2.5em;
+    min-height: 50%;
     padding: 0.2em;
   }
 
-  .proj_img {
-    max-height: 9.5em;
-    max-width: 9.5em;
-    display: flex;
-    flex-direction: column;
-    overflow: contain;
-    margin-bottom: 1em;
+  .proj_link {
     border-style: solid;
     border-color: white;
+    min-height: 50%;
+    width: 100%;
+  }
+
+  .usedLangs .projlang {
+    width: 2.5em;
+  }
+
+  .proj_link .proj_img {
+    min-width: 100%;
   }
 }
 
@@ -371,5 +375,3 @@ a {
 .emailme:hover {
   color: goldenrod;
 }
-
-
