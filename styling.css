@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 
 * {
   margin: 0;
@@ -71,11 +72,17 @@
 .name {
   margin-top: -0.1em;
   padding-bottom: 0.1em;
-  font-family: "Orbitron";
+  font-family: "Kosugi Maru";
   color: black;
   font-size: 3em;
   -webkit-text-stroke-color: gold;
   -webkit-text-stroke-width: 0.5px;
+}
+
+.nav-name {
+  max-height: 100%;
+  max-width: 10%;
+  color: gold;
 }
 
 .nav_bar_links {
@@ -86,11 +93,9 @@
 
 .nav_link {
   color: white;
-  font-size: 1em;
-  line-height: 1em;
+  text-align: center;
   font-family: "Orbitron";
   border-style: groove;
-  padding: 0.5em;
 }
 
 .nav_link:hover {
