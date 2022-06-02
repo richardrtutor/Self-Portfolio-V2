@@ -1,19 +1,27 @@
 <html>
   <head>
-    <link rel="stylesheet" href="styling.css" />
-    <script src="styling.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Richard's Portfolio</title>
   </head>
   <body class="main">
-    <div class="nav_bar">
+    <nav class="navbar"> 
       <h2 class="nav-name">Richard Tutor</h2>
-      <nav class="nav_bar_links">
-        <a class="nav_link" href="#about"> About </a>
-        <a class="nav_link" href="#projects"> Projects </a>
-        <a class="nav_link" href="#skills"> Skills </a>
-        <a class="nav_link" href="#socials"> Socials</a>
-        <a class="nav_link" href="#contact"> Contact</a>
-      </nav>
-    </div>
+      <button class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#about"> About </a></li>
+          <li><a href="#projects"> Projects </a></li>
+          <li><a href="#skills"> Skills </a></li>
+          <li><a href="#socials"> Socials</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div
       class="banner"
       alt="A mix of blues with lines of gold framing the center"
@@ -34,11 +42,15 @@
         <div class="about_desc">
           <h1 class="about_header">Hello There!</h1>
           <p class="about_body">
-            I'm Richard Tutor, a person with a knack for solving problems and an
-            eagerness to grow and learn. Currently I'm a student at Base Camp
-            Coding Academy, which is located in Water Valley, Mississippi. Base
-            Camp trains its students to become full stack web developers while
-            also giving them roles in managing the school itself.
+            I'm Richard Tutor, a Full Stack Web Developer and Full Time Learner. I 
+            aim to constantly improve and grow my skills, as Bruce Lee once said: "Absorb 
+            what is useful, discard what is not, and add what is uniquely your own."  
+            These values continously push me to strive towards self betterment.  I 
+            eagerly seek out knowledge and opportunities in a way to becoming the best 
+            that I can be.
+          </p>
+          <br>
+          <p> Thank you
           </p>
           <div class="placeholder" id="projects"></div>
         </div>
